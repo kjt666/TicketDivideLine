@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TicketDivideLine">
+        <attr name="divid_line_color" format="color"/>
+        <attr name="divide_line_length" format="dimension"/>
+        <attr name="divide_line_interval" format="dimension"/>
+        <attr name="port_shape_color" format="color"/>
+        <attr name="port_shape_diameter" format="dimension"/>
+        <attr name="orientation" format="enum">
+            <enum name="vertical" value="0"/>
+            <enum name="horizontal" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
