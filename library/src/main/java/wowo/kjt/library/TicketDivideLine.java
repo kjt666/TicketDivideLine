@@ -64,7 +64,7 @@ public class TicketDivideLine extends View {
         mPortShapeDiameter = (int) ta.getDimension(R.styleable.TicketDivideLine_port_shape_diameter, PORTSHAPE_DEFAULT_DIAMETER);
         mDivideLineLength = (int) ta.getDimension(R.styleable.TicketDivideLine_divide_line_length, DIVIDELINE_DEFAULT_LENGTH);
         mDivideLineInterval = (int) ta.getDimension(R.styleable.TicketDivideLine_divide_line_interval, DIVIDELINE_DEFAULT_INTERVAL);
-        mDivideLineOrientation = ta.getInt(R.styleable.TicketDivideLine_orientation, DIVIDELINE_DEFAULT_ORIENTATION);
+        mDivideLineOrientation = ta.getInt(R.styleable.TicketDivideLine_tdl_orientation, DIVIDELINE_DEFAULT_ORIENTATION);
         mPortShapeRadius = mPortShapeDiameter / 2;
         mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         mPaint.setStrokeWidth(dp2px(1));
