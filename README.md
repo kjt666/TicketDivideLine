@@ -53,7 +53,7 @@ dependencies {
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginLeft="70dp"
-            app:orientation="vertical" />
+            app:line_orientation="line_vertical" />
 
     </LinearLayout>
  ```
@@ -69,5 +69,7 @@ dependencies {
  两端半圆缺口直径
  * port_shape_color：<br>
  两端半圆缺口颜色
- * orientation：<br>
+ * line_orientation：<br> 
+ ** line_vertical
+ ** line_horizontal
  分割线方向，有水平和垂直方向，和LinearLayout的orientation一样。
