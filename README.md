@@ -70,6 +70,6 @@ dependencies {
  * port_shape_color：<br>
  两端半圆缺口颜色
  * line_orientation：<br> 
- * line_vertical<br>
- * line_horizontal<br>
- 分割线方向，有水平和垂直方向，和LinearLayout的orientation一样。
+    line_vertical<br>
+    line_horizontal<br>
+    分割线方向，有水平和垂直方向，和LinearLayout的orientation一样。
