@@ -29,7 +29,7 @@ dependencies {
 
 演示
 -----
-![](https://github.com/kjt666/ImageCache/blob/master/TicketDivideLine.png)
+![](https://github.com/kjt666/Images/blob/master/TicketDivideLine.png)
 ```Java
     <LinearLayout
         android:layout_width="match_parent"
